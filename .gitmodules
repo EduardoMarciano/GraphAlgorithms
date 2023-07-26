@@ -1,0 +1,6 @@
+[submodule "Topological-graph-CIC-UnB"]
+	path = Topological-graph-CIC-UnB
+	url = https://github.com/EduardoMarciano/Topological-graph-CIC-UnB.git
+[submodule "Matching-Algorithms-Graph-"]
+	path = Matching-Algorithms-Graph-
+	url = https://github.com/EduardoMarciano/Matching-Algorithms-Graph-.git
