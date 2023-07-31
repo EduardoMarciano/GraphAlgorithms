@@ -1,6 +1,6 @@
-# Implemetação de Algoritmos Clássicos de Grafos com Python.
+# Implemetação de Clássicos Algoritmos de Grafos.
  
- ### Este repositório apresenta a implementação de 20 algoritmos clássicos da Teoria de Grafos, que foram abordados na disciplina CIC0199 - Teoria e Aplicação de Grafos da Universidade de Brasília. Cada algoritmo é desenvolvido utilizando uma abordagem orientada a objetos, buscando promover a organização e a facilidade da estruturas dos algorítmos.
+ ### Este repositório apresenta a implementação de 20 algoritmos clássicos da Teoria de Grafos, que foram abordados na disciplina CIC0199 - Teoria e Aplicação de Grafos da Universidade de Brasília. Cada algoritmo é desenvolvido utilizando uma abordagem orientada a objetos, buscando promover a organização e a facilidade da estruturas dos algorítmos. Todos os grafos foram implementados utilizando a linguagem de programação python.
 
 # Algoritmos Implementados:
 
