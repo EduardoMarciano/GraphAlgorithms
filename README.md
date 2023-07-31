@@ -2,7 +2,7 @@
  
  ### Este repositório apresenta a implementação de 20 algoritmos da Teoria de Grafos, os quais foram abordados na disciplina CIC0199 - Teoria e Aplicação de Grafos da Universidade de Brasília. Cada algoritmo é desenvolvido utilizando uma abordagem orientada a objetos, buscando promover a organização e a facilidade da estruturas dos algoritmos. Todos os grafos foram implementados utilizando a linguagem de programação python.
 
-# Algoritmos Implementados:
+## Algoritmos Implementados:
 
 ### Os algoritmos implementados abrangem diversas áreas da Teoria de Grafos, oferecendo uma ampla gama de soluções para problemas do mundo real. Para cada algoritmo, são fornecidos exemplos de sua aplicação, simualando situações comuns encontradas na sociedade e que podem ser úteis para empresas de diversos setores.
   
