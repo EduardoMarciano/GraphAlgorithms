@@ -39,7 +39,7 @@
   ## Algoritmo de Ordenação Topológica Kahn’s (BFS)
   Usado para encontrar uma ordenação linear dos vértices de um grafo direcionado acíclico (DAG), de modo que todas as arestas sigam a direção estabelecida pela ordenação. Ele utiliza uma abordagem baseada em fontes, onde os vértices sem dependências (sem arestas de entrada) são processados primeiro e removidos do grafo, resultando em uma sequência topológica válida.
 
-  Repositório do Algoritmo:
+  Repositório do Algoritmo: https://github.com/EduardoMarciano/Topological-Graph/tree/2971c80c266c76421aa999357ef639bca9bcd3d0
   
   ## Algoritmo de Ordenação Topológica (DFS)
   É uma abordagem alternativa ao algoritmo de Kahn. Ele também é usado para encontrar uma ordenação linear dos vértices em um grafo direcionado acíclico (DAG), mas em vez de usar fontes, esse algoritmo explora os vértices em profundidade, marcando-os como visitados após a exploração completa de seus descendentes. A ordem inversa de visitação é a ordenação topológica desejada.
