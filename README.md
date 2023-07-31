@@ -12,7 +12,7 @@
   Repositório do Algoritmo:
   
   ## Algoritmo de Busca em Largura
- Método de travessia de grafos, o qua explora todos os vértices vizinhos de um vértice inicial antes de se mover para os vértices adjacentes a esses vizinhos. Ele utiliza uma estrutura de fila para rastrear os vértices a serem visitados, garantindo que todos os vértices acessíveis a partir do ponto inicial sejam alcançados sendo amplamente utilizado em problemas de caminhos, conectividade e identificação de componentes conectados em um grafo.
+ Método de travessia de grafos, o qual explora todos os vértices vizinhos de um vértice inicial antes de se mover para os vértices adjacentes a esses vizinhos. Ele utiliza uma estrutura de fila para rastrear os vértices a serem visitados, garantindo que todos os vértices acessíveis a partir do ponto inicial sejam alcançados sendo amplamente utilizado em problemas de caminhos, conectividade e identificação de componentes conectados em um grafo.
 
   Repositório do Algoritmo:
   
@@ -22,7 +22,7 @@
   Repositório do Algoritmo:
   
   ## Algoritmo de Bellman-Ford
-  É usado para encontrar o caminho mais curto entre um vértice de origem e todos os outros vértices em um grafo ponderado, permitindo a existência de pesos negativos nas arestas. Ele itera repetidamente através de todas as arestas, relaxando-as, até garantir que todas as distâncias possíveis tenham sido otimizadas. É uma escolha eficaz quando o grafo contém arestas de peso negativo, mas requer mais tempo de execução em comparação com o algoritmo de Dijkstra.
+  É usado para encontrar o caminho mais curto entre um vértice de origem e todos os outros vértices em um grafo ponderado, permitindo a existência de pesos negativos nas arestas. Ele itera repetidamente através de todas as arestas, relaxando-as, até garantir que todas as distâncias possíveis tenham sido otimizadas. É uma escolha eficaz quando o grafo contém arestas de peso negativo.
 
   Repositório do Algoritmo:
   
@@ -57,12 +57,12 @@
   Repositório do Algoritmo:
   
   ## Algoritmo de Prim
- É utilizado para encontrar a árvore geradora mínima em um grafo conexo e não direcionado com pesos. Ele começa com um vértice inicial e adiciona iterativamente a aresta de menor peso que conecta um vértice na árvore ao vértice fora da árvore, expandindo a árvore gradualmente até que todos os vértices estejam incluídos. É uma abordagem eficiente para encontrar o caminho mais curto em uma rede conectada.
+ É utilizado para encontrar a árvore geradora mínima em um grafo. Ele começa com um vértice inicial e adiciona iterativamente a aresta de menor peso que conecta um vértice na árvore ao vértice fora da árvore, expandindo a árvore gradualmente até que todos os vértices estejam incluídos. É uma abordagem eficiente para encontrar o caminho mais curto em uma rede conectada.
 
   Repositório do Algoritmo:
   
   ## Algoritmo de Kruskal
-  É usado para encontrar a árvore geradora mínima em um grafo conexo e não direcionado com pesos. Em vez de começar com um vértice específico, ele ordena todas as arestas por peso e as adiciona à árvore geradora se não formarem ciclos. O processo continua até que todos os vértices estejam conectados em uma única árvore, resultando na árvore geradora mínima. É uma abordagem eficiente para conectar nós em um grafo de maneira econômica, como em problemas de projeto de redes de comunicação ou transporte.
+  É usado para encontrar a árvore geradora mínima em um grafo conexo. Em vez de começar com um vértice específico, ele ordena todas as arestas por peso e as adiciona à árvore geradora se não formarem ciclos. O processo continua até que todos os vértices estejam conectados em uma única árvore, resultando na árvore geradora mínima. É uma abordagem eficiente para conectar nós em um grafo de maneira econômica, como em problemas de projeto de redes de comunicação ou transporte.
 
   Repositório do Algoritmo:
   
@@ -72,22 +72,22 @@
   Repositório do Algoritmo:
   
   ## Algoritmo de Emparelhamento
-  É utilizado para encontrar emparelhamentos máximos (ou máximos-cardinalidade) em um grafo não direcionado. Ele busca combinar o máximo possível de arestas sem que elas compartilhem vértices em comum. Os algoritmos para encontrar emparelhamentos podem ser eficientes, como o algoritmo de Edmonds e o algoritmo de Hopcroft-Karp.
+  É utilizado para encontrar emparelhamentos máximos (ou máximos-cardinalidade) em um grafo não direcionado. Ele busca combinar o máximo possível de arestas sem que elas compartilhem vértices em comum.
 
   Repositório do Algoritmo:
   
   ## Algoritmo de Gale-Shapley
-  É usado para resolver o problema de casamento estável em teoria dos jogos e teoria dos casamentos. Ele permite que um grupo de homens e mulheres indiquem suas preferências para formar pares estáveis, onde nenhum homem e mulher prefeririam estar juntos a estar com outros parceiros com base em suas preferências individuais.
+  É usado para resolver o problema de casamento estável em teoria dos jogos e teoria dos casamentos. Ele permite que um dois grupos escolham os melhores candidatos para si, permitindo trocas entre os vêrtices, até que se encontre uma combinação estável onde nehuma troca mais seja aceita. 
   
   Repositório do Algoritmo:
   
   ## Algoritmo Húngaro
- É usado para resolver o problema de atribuição, que envolve encontrar o melhor emparelhamento entre dois conjuntos de elementos com base em seus custos ou pesos. Ele utiliza programação dinâmica para determinar o emparelhamento ótimo, com complexidade de tempo eficiente. O algoritmo também é conhecido como o algoritmo de Kuhn-Munkres.
+ É usado para resolver o problema de atribuição, que envolve encontrar o melhor emparelhamento entre dois conjuntos de elementos com base em seus custos ou pesos. Ele utiliza programação dinâmica para determinar o emparelhamento ótimo.
   
   Repositório do Algoritmo:
   
   ## Algoritmo de Caminhos aumentados
-  É usado em problemas de fluxo máximo em redes. É uma das variantes do algoritmo Ford-Fulkerson. A abordagem consiste em encontrar caminhos aumentados, que são caminhos da fonte ao sumidouro ao longo dos quais o fluxo pode ser aumentado. Repetidamente encontrando caminhos aumentados e ajustando o fluxo, o algoritmo encontra o fluxo máximo na rede.
+  É usado em problemas de fluxo máximo em redes. A abordagem consiste em encontrar caminhos aumentados, que são caminhos da fonte ao sumidouro ao longo dos quais o fluxo pode ser aumentado. Repetidamente encontrando caminhos aumentados e ajustando o fluxo, o algoritmo encontra o fluxo máximo na rede.
 
   Repositório do Algoritmo:
   
@@ -97,7 +97,7 @@
   Repositório do Algoritmo:
   
   ## Algoritmo de Edmonds-Karp
-  É uma variação do algoritmo Ford-Fulkerson que utiliza a busca em largura (BFS) para encontrar caminhos aumentados de forma mais eficiente. Ele é usado para calcular o fluxo máximo em uma rede com capacidades nas arestas. A busca em largura ajuda a garantir que a capacidade do caminho aumentado encontrado seja totalmente utilizada, o que melhora a convergência do algoritmo em comparação com o Ford-Fulkerson tradicional.
+  É uma variação do algoritmo Ford-Fulkerson que utiliza a busca em largura (BFS) para encontrar caminhos aumentados de forma mais eficiente. Ele é usado para calcular o fluxo máximo. A busca em largura ajuda a garantir que a capacidade do caminho aumentado encontrado seja totalmente utilizada, o que melhora a convergência do algoritmo em comparação com o Ford-Fulkerson tradicional.
   
   Repositório do Algoritmo:
   
