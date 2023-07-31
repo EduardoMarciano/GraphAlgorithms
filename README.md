@@ -39,7 +39,7 @@
   ### Algoritmo de Ordenação Topológica Kahn’s (BFS)
   Usado para encontrar uma ordenação linear dos vértices de um grafo direcionado acíclico (DAG), de modo que todas as arestas sigam a direção estabelecida pela ordenação. Ele utiliza uma abordagem baseada em fontes, onde os vértices sem dependências (sem arestas de entrada) são processados primeiro e removidos do grafo, resultando em uma sequência topológica válida.
 
-  Repositório do Algoritmo: https://github.com/EduardoMarciano/Topological-Graph/tree/2971c80c266c76421aa999357ef639bca9bcd3d0
+  Repositório do Algoritmo: https://github.com/EduardoMarciano/Topological-path-of-a-Graph-DAG-BFS/tree/main
   
   ### Algoritmo de Ordenação Topológica (DFS)
   É uma abordagem alternativa ao algoritmo de Kahn. Ele também é usado para encontrar uma ordenação linear dos vértices em um grafo direcionado acíclico (DAG), mas em vez de usar fontes, esse algoritmo explora os vértices em profundidade, marcando-os como visitados após a exploração completa de seus descendentes. A ordem inversa de visitação é a ordenação topológica desejada.
@@ -49,7 +49,7 @@
   ### Algoritmo de Caminho Crítico
   É comumente aplicado em gerenciamento de projetos e programação linear. Ele determina o caminho mais longo (duração máxima) em um gráfico ponderado direcionado acíclico (DAG), representando a sequência de atividades em um projeto e suas dependências. Ao identificar o caminho crítico, é possível identificar as atividades que possuem o maior impacto na duração total do projeto.
 
-  Repositório do Algoritmo:
+  Repositório do Algoritmo: https://github.com/EduardoMarciano/Critical-Path-Method-CPM
   
   ### Algoritmo Kosaraju-Sharir
    É utilizado para encontrar componentes fortemente conectados em um grafo direcionado. Ele emprega duas passagens de busca em profundidade: na primeira, a ordem topológica é determinada; na segunda, os componentes fortemente conectados são identificados com base na ordem inversa da primeira passagem. É uma ferramenta essencial para resolver problemas relacionados a conectividade e análise de redes complexas.
