@@ -60,7 +60,7 @@
 
   Ordem de Complexabilidade: O(V + E)
   
-  Repositório do Algoritmo:https://github.com/EduardoMarciano/Topological-path-of-a-Graph-DAG-DFS
+  Repositório do Algoritmo: https://github.com/EduardoMarciano/Topological-path-of-a-Graph-DAG-DFS
   
   ### Algoritmo de Caminho Crítico
   É comumente aplicado em gerenciamento de projetos e programação linear. Ele determina o caminho mais longo (duração máxima) em um gráfico ponderado direcionado acíclico (DAG), representando a sequência de atividades em um projeto e suas dependências. Ao identificar o caminho crítico, é possível identificar as atividades que possuem o maior impacto na duração total do projeto.
